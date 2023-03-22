@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 a {
-    margin: 15px;
-    padding: 15px;
+    margin: 12px;
+    padding: 10px;
     border-radius: 5px;
 }
 a:link {
@@ -20,24 +20,28 @@ body {
 
 h1 {
     color: transparent;
-    font-size: 120px;
+    font-size: 1500%;
     padding-bottom: 5px;
+    margin: 20px;
 }
 
 h2 {
     color: transparent;
-    font-size: 45px;
+    font-size: 500%;
     padding-top: 0px;
+    margin-top: 15px;
+    margin-bottom: 25px;
 }
             
 button {
     color: transparent;
-    font-size: 16px;
-    padding: 20px;
+    font-size: 200%;
+    padding: 8%;
     border-radius: 8px;
     border-color: transparent;
     background: white;
     box-shadow: 0 0 10px #666666;
+    width: 300px;
 }
 nav {
     background-color: white;
@@ -60,12 +64,12 @@ nav {
     text-align:center;
     display: flex;
     justify-content: center;
-    width: 70%;
+    width: 50%;
     height: 100%;
     background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 0 10px #666666;
-    padding: 0px;
+    padding: 15%;
     border: 0px;
 }
 
@@ -84,4 +88,7 @@ nav {
     background: linear-gradient(90deg, rgba(255,133,171,1) 35%, rgba(133,183,255,1) 100%);
     -webkit-background-clip: text;
     background-clip: text;
+}
+#but1 {
+    padding: 40px;
 }
