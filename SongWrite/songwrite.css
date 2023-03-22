@@ -1,7 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
-
+a {
+    margin: 15px;
+    padding: 15px;
+    border-radius: 5px;
+}
+a:link {
+    font-size: 30px;
+    color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    box-shadow: 0 0 10px #666666;
+}
 body {
-    background: rgb(255,133,171);
+    background: linear-gradient(90deg, rgba(133,183,255,1) 35%, rgba(255,133,171,1) 100%);
+    margin: 0;
 }
 
 h1 {
@@ -17,14 +31,29 @@ h2 {
 }
             
 button {
-    color: #ffffff;
-    font-family: "Archivo Black", sans-serif;
+    color: transparent;
     font-size: 16px;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 8px;
     border-color: transparent;
-    background: rgb(255,133,171);
+    background: white;
+    box-shadow: 0 0 10px #666666;
+}
+nav {
+    background-color: white;
+    width: 100%;
+    height: 25%;
+    color:  rgb(250, 189, 208);
     box-shadow: 0 0 15px #666666;
+}
+.navbaritems {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.navbaritem {
+    margin: 15px;
+    padding: 15px;
 }
 
 .card {
@@ -32,10 +61,12 @@ button {
     display: flex;
     justify-content: center;
     width: 70%;
-    height: 30%;
+    height: 100%;
     background-color: #ffffff;
-    border-radius: 10px;
+    border-radius: 8px;
     box-shadow: 0 0 10px #666666;
+    padding: 0px;
+    border: 0px;
 }
 
 .container {
