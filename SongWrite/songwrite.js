@@ -1,2 +1,6 @@
-let button = document.getElementById("homebutt");
-button.addEventListener("click", function)
+const button = document.getElementsByTagName("button");
+
+function test() {
+    conosle.log("Test sucessful.")
+};
+
