@@ -1,6 +1,5 @@
-const button = document.getElementsByTagName("button");
+const button = document.getElementById("but1");
 
-function test() {
-    conosle.log("Test sucessful.")
+button.onclick = function test() {
+    location.href  = "songwritepickkey.html";
 };
-
